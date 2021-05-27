@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url= '/goit-js-11-color-switch/'",
+    "predeploy": "npm run build -- --public-url= '/goit-js-11-color-switch/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
