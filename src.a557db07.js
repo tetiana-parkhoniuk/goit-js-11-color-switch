@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/demo.jpg":[["demo.090c7c6d.jpg","nKR3"],"nKR3"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");const t=["#FFFFFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"],s={startBtn:document.querySelector('button[data-action="start"]'),stopBtn:document.querySelector('button[data-action="stop"]'),body:document.body};function e(){s.body.style.backgroundColor=t[a(1,t.length-1)]}const n={intervalId:null,isActive:!1,start(){this.isActive||(this.isActive=!0,s.startBtn.disabled=!0,this.intervalId=setInterval(e,1e3))},stop(){clearInterval(this.intervalId),this.isActive=!1,s.startBtn.disabled=!1}};s.startBtn.addEventListener("click",()=>{n.start()}),s.stopBtn.addEventListener("click",()=>{n.stop()});const a=(t,s)=>Math.floor(Math.random()*(s-t+1)+t);
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.838c4201.js.map
+//# sourceMappingURL=/goit-js-11-color-switch/src.a557db07.js.map
