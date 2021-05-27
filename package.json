@@ -6,9 +6,9 @@
   "homepage": "https://tetiana-parkhoniuk.github.io/goit-js-11-color-switch",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url= '/goit-js-11-color-switch/",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build src/*.html --public-url /goit-js-11-color-switch/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
